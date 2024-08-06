@@ -20,12 +20,19 @@ section {
     background-color: black;
 }
 
-.recently-played-card > img{
-    height: 75px;
-    width: 75px;
+.recently-played-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background-color: rgb(71, 71, 71);
+    height: 50px;
+    width: 280px;
+    
+    margin: 8px 12px 8px 12px;
 }
 
-.recently-played-card{
-    background-color: rgb(118, 129, 129);
-    display: flex;
+.recently-played-img{
+    height: 50px;
+    width: 50px;
 }
