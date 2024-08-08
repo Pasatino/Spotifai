@@ -17,7 +17,8 @@ aside{
 }
 
 section {
-    background-color: black;
+    background: linear-gradient(to bottom, #272727, #161616);
+
 }
 
 .recently-played-card {
@@ -35,4 +36,20 @@ section {
 .recently-played-img{
     height: 50px;
     width: 50px;
+}
+
+.music-cover-image {
+    height: 150px;
+    width: 150px;
+}
+
+button#image-button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+button#image-button svg{
+    display: block;
+    max-width: 100%;
 }
